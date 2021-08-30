@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+
+/* Logo Card */
+
+.main-logo-card {
+    overflow-x: hidden;
+    background: #FFF;
+}
+
+.ball {
+  position: absolute;
+  border-radius: 100%;
+  opacity: 0.4;
+}
+
+
+/*---------------------------------------
+      HOME          
+  -----------------------------------------*/
+
+#home-logo-card {
+    vertical-align: middle;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    padding-top: 3em;
+    font-family: 'Tajawal', sans-serif;
+    text-align: center;
+}
+
+.logo-box {
+    height: 400px;
+    width: 800px;
+    background: #F9FAFD;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    justify-content: center;
+}
+
+.right-element {
+    display: table-cell;
+    font-size: 3vw;
+    font-weight: 500;
+    color: #6F7484;
+    height: max-content;
+    vertical-align: middle;
+    width: 60%;
+    text-align: left;
+    padding-left: 20px;
+
+}
+
+.left-element {
+    display: table-cell;
+    height: max-content;
+    vertical-align: middle;
+    width: 100%;
+    text-align: right;
+}
+
+#LeftElement,
+#RightElement {
+    height: 12vw;
+}
+
+svg#RightElement {
+    margin-bottom: -5vw;
+    margin-left: -4vw;
+}
